@@ -1,9 +1,18 @@
 from flask import request, render_template
+from flask_assistant import Assistant, ask, tell
 
 from core.dialog.manager import DialogManger
 from app import app
 
 manager = DialogManger()
+
+assist = Assistant(app, route='/webhook')
+
+
+@assist.action('greating')
+def greet_and_start():
+    speech = "Hey! Are you male or female?"
+    return ask(speech)
 
 @app.route('/', methods=["GET", "POST"])
 def home():

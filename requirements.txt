@@ -8,3 +8,4 @@ googleapis-common-protos==1.52.0
 grpcio==1.30.0
 google-cloud-texttospeech
 gunicorn
+flask-assistant
