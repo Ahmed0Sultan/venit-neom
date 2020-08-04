@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Venit - Neom</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+
+</head>
+<body>
+  <audio hidden>
+    <source id="source" src="" type="audio/wav">
+    Your browser does not support the audio element.
+</audio>
+<div class="container">
+    <div class="head row">
+        <h1>Venit</h1>
+    </div>
+    <div class="text row">
+
+    </div>
+    <div class="visual row">
+        <canvas></canvas>
+        <audio id="recorder" muted hidden></audio>
+    </div>
+    <div id="button">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="microphone" data-container-transform="translate(3)" viewBox="0 0 16 20" x="0px" y="0px"><path d="M4.5 0c-1.4 0-2.5 1.1-2.5 2.5v5c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5v-5c0-1.4-1.1-2.5-2.5-2.5zm-4.125 6.188a.5.5 0 0 0-.375.5v.813c0 2.302 1.763 4.184 4 4.438v3.063h-2c-.6 0-1 .4-1 1h7c0-.6-.4-1-1-1h-2v-3.063c2.237-.254 4-2.136 4-4.438v-.813a.5.5 0 1 0-1 0v.813c0 1.927-1.573 3.5-3.5 3.5s-3.5-1.573-3.5-3.5v-.813a.5.5 0 0 0-.563-.5.5.5 0 0 0-.063 0z" transform="translate(3)"/></svg>
+        <div id="contents"></div>
+      </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="{{ url_for('static', filename='js/script1.js') }}"></script>
+
+</body>
+</html>
