@@ -27,7 +27,7 @@ class DialogManger:
         elif intent == "hologram_museum":
             return random.choice(HOLOGRAM_MUSEUM)
         elif intent == "weather":
-            return "weather"
+            return random.choice(WEATHER)
         elif intent == "location":
             if "park" in entities:
                 return random.choice(AMUSEMENT_PARK_LOCATION)

@@ -75,8 +75,8 @@ BEACH = [
     "maybe, you should ask the guards",
     "yes, you can swim",
     "yes, of course you can",
-    "no, you can`t",
-    "no, actually you can`t"
+    "no, you can't",
+    "no, actually you can't"
 ]
 
 WEATHER = [
@@ -87,6 +87,6 @@ ZOO_FAMOUS = [
     "it has all the species that the tourist really wants to see, whether if he interested in marine life or in wildlife.",
     "There is a display of rare bird species and horse racing",
     "It contains a circus and a display of unique types of animals",
-    "because it`s the biggest zoo in the kingdom.",
+    "because it's the biggest zoo in the kingdom.",
     "lots of people recommended it."
 ]
