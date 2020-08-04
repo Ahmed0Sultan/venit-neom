@@ -6,7 +6,7 @@ from app import app
 
 manager = DialogManger()
 
-assist = Assistant(app, route='/webhook')
+assist = Assistant(app, route='/webhook', project_id='venit-2030")
 
 
 @assist.action('greating')
